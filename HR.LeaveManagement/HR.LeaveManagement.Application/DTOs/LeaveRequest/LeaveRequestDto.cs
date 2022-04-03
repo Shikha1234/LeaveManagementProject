@@ -1,15 +1,19 @@
-﻿using HR.LeaveManagement.Domain.Common;
+﻿using HR.LeaveManagement.Domain;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace HR.LeaveManagement.Domain
+namespace HR.LeaveManagement.Application.DTOs.LeaveRequest
 {
-    public class LeaveRequest: BaseDomainEntity
+    public class LeaveRequestDto : BaseDto
     {
-      
         public DateTime StartDate { get; set; }
 
         public DateTime EndDate { get; set; }
 
-        public LeaveType LeaveType { get; set; }
+        public LeaveTypeDto LeaveType { get; set; }
 
         public int LeaveTypeId { get; set; }
 
@@ -22,7 +26,5 @@ namespace HR.LeaveManagement.Domain
         public bool? Approved { get; set; }
 
         public bool Cancelled { get; set; }
-       
-       // public string ApprovedById { get; set; }
     }
 }

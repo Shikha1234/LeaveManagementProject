@@ -3,15 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using HR.LeaveManagement.Domain.Common;
 
-namespace HR.LeaveManagement.Domain
+namespace HR.LeaveManagement.Application.DTOs
 {
-    public class LeaveAllocation : BaseDomainEntity
+    public class LeaveAllocationDto : BaseDto
     {
         public int NumberOfDays { get; set; }
-        public LeaveType LeaveType { get; set; }
+
+        public LeaveTypeDto LeaveType { get; set; }
+
         public int LeaveTypeId { get; set; }
+
         public int Period { get; set; }
 
     }
