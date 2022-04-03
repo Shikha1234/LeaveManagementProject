@@ -12,15 +12,15 @@ When we talk about SOLID architecture, we are referring to isn’t a straightfor
 
 # SOLID stands for:
 
-# S - Single-Responsibility Principle
+### S - Single-Responsibility Principle
 
-# O - Open-closed Principle
+### O - Open-closed Principle
 
-# L - Liskov Substitution Principle
+### L - Liskov Substitution Principle
 
-# I - Interface Segregation Principle
+### I - Interface Segregation Principle
 
-# D - Dependency Inversion Principle
+### D - Dependency Inversion Principle
 
 In this course, you explore foundational architectural principles which help with the creation of maintainable code. You will discover how to set up a real-world application architecture with ASP.NET Core. Then, you’ll learn how to plug in different, common blocks such as email, authentication and have a foundation to plug-in other third-party services as needed.
 
@@ -28,26 +28,26 @@ When you’re finished with this course, you’ll have the skills and knowledge 
 
 N.B. - The project in this course is based on the deliverables in Complete ASP.NET Core and Entity Framework Development. While it is not mandatory to do this course, much of the existing code will be reused from this course's content.
 
-# Build A Strong Foundation in .NET Clean Architecture:
+### Build A Strong Foundation in .NET Clean Architecture:
 
-# Learn Clean or Onion Architecture and Best Practices
+### Learn Clean or Onion Architecture and Best Practices
 
-# Learn Command Query Responsibility Segregation (CQRS)
+### Learn Command Query Responsibility Segregation (CQRS)
 
-# Implement Mediatr Pattern
+### Implement Mediatr Pattern
 
-# Add Email Service using SendGrid
+### Add Email Service using SendGrid
 
-# Efficient Exception Handling and Routing
+### Efficient Exception Handling and Routing
 
-# Implementing Unit Testing
+### Implementing Unit Testing
 
-# Moq and Shouldy
+### Moq and Shouldy
 
-# Global Error Handling with Custom Middleware and Exceptions
+### Global Error Handling with Custom Middleware and Exceptions
 
-# Adding Validation Using Fluent Validation
+### Adding Validation Using Fluent Validation
 
-# Build a .NET Core API and MVC UI Application
+### Build a .NET Core API and MVC UI Application
 
-# Implement JWT(JSON Web Token)  Authentication
+### Implement JWT(JSON Web Token)  Authentication
