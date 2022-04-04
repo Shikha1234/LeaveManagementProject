@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HR.LeaveManagement.Application.Features.LeaveRequests.Handlers.Request
+namespace HR.LeaveManagement.Application.Features.LeaveRequests.Requests.Queries
 {
     public class GetLeaveRequestListRequest : IRequest<List<LeaveRequestListDto>>
     {
