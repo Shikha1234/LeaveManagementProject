@@ -5,12 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HR.LeaveManagement.Application.DTOs.LeaveAllocation
+namespace HR.LeaveManagement.Application.DTOs.LeaveRequest
 {
-    public class UpdateLeaveAllocationDto :BaseDto, ILeaveAllocationDto
+    public interface ILeaveRequestDto
     {
-        public int NumberOfDays { get; set; }
+        public DateTime StartDate { get; set; }
+
+        public DateTime EndDate { get; set; }
+
         public int LeaveTypeId { get; set; }
-        public int Period { get; set; }
+       
     }
 }
