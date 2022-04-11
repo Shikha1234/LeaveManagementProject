@@ -9,7 +9,7 @@ namespace HR.LeaveManagement.Domain
 
         public DateTime EndDate { get; set; }
 
-        public LeaveType leaveType { get; set; }
+        public LeaveType LeaveType { get; set; }
 
         public int LeaveTypeId { get; set; }
 
