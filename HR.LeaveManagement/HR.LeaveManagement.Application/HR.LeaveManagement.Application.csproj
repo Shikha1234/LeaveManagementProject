@@ -16,4 +16,8 @@
     <ProjectReference Include="..\HR.LeaveManagementDomain\HR.LeaveManagement.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
 </Project>
