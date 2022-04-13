@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace HR.LeaveManagement.Persistance.Repositories
 {
-    public class LeaveAllocationRepository : GenericRepository<LeaveType>, Application.Contracts.Persistence.ILeaveAllocationRepository
+    public class LeaveAllocationRepository : GenericRepository<LeaveType>, ILeaveAllocationRepository
     {
         private readonly LeaveManagementDbContext _dbContext;
 
