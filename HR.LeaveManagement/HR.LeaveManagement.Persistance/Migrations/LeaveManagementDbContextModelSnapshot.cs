@@ -31,14 +31,12 @@ namespace HR.LeaveManagement.Persistance.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("CreatedBy")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("LastModifiedBy")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("LastModifiedDate")
@@ -75,7 +73,6 @@ namespace HR.LeaveManagement.Persistance.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("CreatedBy")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("DateActioned")
@@ -91,7 +88,6 @@ namespace HR.LeaveManagement.Persistance.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("LastModifiedBy")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("LastModifiedDate")
@@ -123,7 +119,6 @@ namespace HR.LeaveManagement.Persistance.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("CreatedBy")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("DateCreated")
@@ -133,14 +128,12 @@ namespace HR.LeaveManagement.Persistance.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("LastModifiedBy")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("LastModifiedDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -151,21 +144,17 @@ namespace HR.LeaveManagement.Persistance.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedBy = "SP",
-                            DateCreated = new DateTime(2022, 4, 21, 9, 3, 21, 207, DateTimeKind.Local).AddTicks(5850),
+                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DefaultDays = 10,
-                            LastModifiedBy = "Sp",
-                            LastModifiedDate = new DateTime(2022, 4, 21, 9, 3, 21, 207, DateTimeKind.Local).AddTicks(5863),
+                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Vacation"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedBy = "SP1",
-                            DateCreated = new DateTime(2022, 4, 21, 9, 3, 21, 207, DateTimeKind.Local).AddTicks(5867),
+                            DateCreated = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             DefaultDays = 12,
-                            LastModifiedBy = "Sp1",
-                            LastModifiedDate = new DateTime(2022, 4, 21, 9, 3, 21, 207, DateTimeKind.Local).AddTicks(5867),
+                            LastModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Sick"
                         });
                 });

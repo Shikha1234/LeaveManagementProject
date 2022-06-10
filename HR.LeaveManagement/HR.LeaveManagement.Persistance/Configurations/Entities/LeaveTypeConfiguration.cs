@@ -19,10 +19,10 @@ namespace HR.LeaveManagement.Persistance.Configurations.Entities
                     Id = 1,
                     DefaultDays = 10,
                     Name = "Vacation",
-                    LastModifiedBy = "Sp",
-                    CreatedBy = "SP",
-                    DateCreated = DateTime.Now,
-                    LastModifiedDate = DateTime.Now
+                    //LastModifiedBy = "Sp",
+                    //CreatedBy = "SP",
+                    //DateCreated = DateTime.Now,
+                    //LastModifiedDate = DateTime.Now
 
                 },
                 new LeaveType
@@ -30,10 +30,10 @@ namespace HR.LeaveManagement.Persistance.Configurations.Entities
                     Id = 2,
                     DefaultDays = 12,
                     Name = "Sick",
-                    LastModifiedBy = "Sp1",
-                    CreatedBy = "SP1",
-                    DateCreated = DateTime.Now,
-                    LastModifiedDate = DateTime.Now
+                    //LastModifiedBy = "Sp1",
+                    //CreatedBy = "SP1",
+                    //DateCreated = DateTime.Now,
+                    //LastModifiedDate = DateTime.Now
                 }
              );
         }
